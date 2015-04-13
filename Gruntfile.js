@@ -1,5 +1,5 @@
 module.exports = function(grunt) {
-
+    grunt.loadNpmTasks('grunt-gh-pages');
     // Project configuration.
     grunt.initConfig({
         pkg: grunt.file.readJSON('package.json'),
@@ -59,6 +59,12 @@ module.exports = function(grunt) {
                     environment: 'production'
                 }
             },
+        },
+        'gh-pages': {
+            options: {
+                base: 'app/public'
+            },
+            src: ['**']
         }
     });
 

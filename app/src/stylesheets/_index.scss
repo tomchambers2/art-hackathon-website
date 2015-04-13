@@ -16,8 +16,32 @@
 	font-family: courier;
 }
 
+.menu {
+	font-size: 19px;
+	text-transform: uppercase;
+	font-family: 'Montserrat', sans-serif;
+	li.home a {
+		color: #FE5D81;
+	}
+	li.apply a {
+		color: #00629C;
+	}
+	li.venue a {
+		color: #00B0A7;
+	}
+	li.twitter a {
+		color: #00BAFF;
+	}
+	li.blog a {
+		color: #EF474E;
+	}
+	li.contact a {
+		color: #D7A01E;
+	}
+}
+
 .title {
-	margin: 80px 0;
+	margin: 160px 0 80px 0;
 }
 
 .title-container {
