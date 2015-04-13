@@ -1,0 +1,43 @@
+.jumbo {
+	background: url(/images/fun.png);
+	width: 100%;
+	height: 600px;
+	background-position: cover;
+	margin-top: -50px;
+}
+
+.header {
+	.inner {
+		margin-bottom: 30px;
+	}
+	background: #00BAFF;
+	color: #fff;
+	text-transform: uppercase;
+	font-family: courier;
+}
+
+.title {
+	margin: 80px 0;
+}
+
+.title-container {
+
+	border-right: 2px solid #00BAFF;
+	border-left: 2px solid #00BAFF;
+}
+
+.top {
+	background: #FE678A;
+	padding: 80px 0;
+	color: #fff;
+}
+
+.middle {
+	background: #53AFDE;
+	color: #fff;
+}
+
+.lower {
+	background: #15BBB1;
+	color: #fff;
+}
