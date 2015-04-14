@@ -8038,78 +8038,81 @@ button.close {
   background: url(/images/fun.png);
   width: 100%;
   height: 600px;
-  background-position: cover;
+  background-size: 100% auto;
+  max-height: 400px;
+  overflow: hidden;
   margin-top: -50px;
 }
 
-/* line 9, ../../src/stylesheets/_index.scss */
+/* line 11, ../../src/stylesheets/_index.scss */
 .header {
   background: #00BAFF;
   color: #fff;
   text-transform: uppercase;
   font-family: courier;
 }
-/* line 10, ../../src/stylesheets/_index.scss */
+/* line 12, ../../src/stylesheets/_index.scss */
 .header .inner {
   margin-bottom: 30px;
 }
 
-/* line 19, ../../src/stylesheets/_index.scss */
+/* line 21, ../../src/stylesheets/_index.scss */
 .menu {
   font-size: 19px;
   text-transform: uppercase;
   font-family: 'Montserrat', sans-serif;
 }
-/* line 23, ../../src/stylesheets/_index.scss */
+/* line 25, ../../src/stylesheets/_index.scss */
 .menu li.home a {
   color: #FE5D81;
 }
-/* line 26, ../../src/stylesheets/_index.scss */
+/* line 28, ../../src/stylesheets/_index.scss */
 .menu li.apply a {
   color: #00629C;
 }
-/* line 29, ../../src/stylesheets/_index.scss */
+/* line 31, ../../src/stylesheets/_index.scss */
 .menu li.venue a {
   color: #00B0A7;
 }
-/* line 32, ../../src/stylesheets/_index.scss */
+/* line 34, ../../src/stylesheets/_index.scss */
 .menu li.twitter a {
   color: #00BAFF;
 }
-/* line 35, ../../src/stylesheets/_index.scss */
+/* line 37, ../../src/stylesheets/_index.scss */
 .menu li.blog a {
   color: #EF474E;
 }
-/* line 38, ../../src/stylesheets/_index.scss */
+/* line 40, ../../src/stylesheets/_index.scss */
 .menu li.contact a {
   color: #D7A01E;
 }
 
-/* line 43, ../../src/stylesheets/_index.scss */
+/* line 45, ../../src/stylesheets/_index.scss */
 .title {
-  margin: 160px 0 80px 0;
+  margin: 100px 0 40px 0;
 }
 
-/* line 47, ../../src/stylesheets/_index.scss */
+/* line 49, ../../src/stylesheets/_index.scss */
 .title-container {
+  background: #fff;
   border-right: 2px solid #00BAFF;
   border-left: 2px solid #00BAFF;
 }
 
-/* line 53, ../../src/stylesheets/_index.scss */
+/* line 55, ../../src/stylesheets/_index.scss */
 .top {
   background: #FE678A;
   padding: 80px 0;
   color: #fff;
 }
 
-/* line 59, ../../src/stylesheets/_index.scss */
+/* line 61, ../../src/stylesheets/_index.scss */
 .middle {
   background: #53AFDE;
   color: #fff;
 }
 
-/* line 64, ../../src/stylesheets/_index.scss */
+/* line 66, ../../src/stylesheets/_index.scss */
 .lower {
   background: #15BBB1;
   color: #fff;
@@ -8124,6 +8127,12 @@ html, body {
 /* line 6, ../../src/stylesheets/_general.scss */
 body {
   background: url(/images/triangles.png);
+}
+
+/* line 10, ../../src/stylesheets/_general.scss */
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase;
 }
 
 /* line 1, ../../src/stylesheets/_bootstrap-override.scss */
