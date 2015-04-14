@@ -2,7 +2,9 @@
 	background: url(/images/fun.png);
 	width: 100%;
 	height: 600px;
-	background-position: cover;
+	background-size: 100% auto;
+	max-height: 400px;
+	overflow: hidden;
 	margin-top: -50px;
 }
 
@@ -41,11 +43,11 @@
 }
 
 .title {
-	margin: 160px 0 80px 0;
+	margin: 100px 0 40px 0;
 }
 
 .title-container {
-
+	background: #fff;
 	border-right: 2px solid #00BAFF;
 	border-left: 2px solid #00BAFF;
 }
