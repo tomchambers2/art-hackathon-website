@@ -8039,100 +8039,123 @@ button.close {
   width: 100%;
   height: 600px;
   background-size: 100% auto;
-  max-height: 400px;
+  max-height: 460px;
   overflow: hidden;
   margin-top: -50px;
 }
 
 /* line 11, ../../src/stylesheets/_index.scss */
+.logo {
+  background: url(/images/logo.png);
+  height: 232px;
+  width: 300px;
+  margin: auto;
+  background-size: 300px 300px;
+  margin-top: 120px;
+}
+
+/* line 21, ../../src/stylesheets/_index.scss */
 .header {
-  background: #00BAFF;
+  background: #47B1CD;
   color: #fff;
   text-transform: uppercase;
   font-family: courier;
 }
-/* line 12, ../../src/stylesheets/_index.scss */
+/* line 22, ../../src/stylesheets/_index.scss */
 .header .inner {
   margin-bottom: 30px;
 }
 
-/* line 21, ../../src/stylesheets/_index.scss */
+/* line 31, ../../src/stylesheets/_index.scss */
 .menu {
   font-size: 19px;
   text-transform: uppercase;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Ubuntu', sans-serif;
 }
-/* line 25, ../../src/stylesheets/_index.scss */
+/* line 35, ../../src/stylesheets/_index.scss */
 .menu li.home a {
   color: #FE5D81;
 }
-/* line 28, ../../src/stylesheets/_index.scss */
+/* line 38, ../../src/stylesheets/_index.scss */
 .menu li.apply a {
   color: #00629C;
 }
-/* line 31, ../../src/stylesheets/_index.scss */
+/* line 41, ../../src/stylesheets/_index.scss */
 .menu li.venue a {
   color: #00B0A7;
 }
-/* line 34, ../../src/stylesheets/_index.scss */
+/* line 44, ../../src/stylesheets/_index.scss */
 .menu li.twitter a {
   color: #00BAFF;
 }
-/* line 37, ../../src/stylesheets/_index.scss */
+/* line 47, ../../src/stylesheets/_index.scss */
 .menu li.blog a {
   color: #EF474E;
 }
-/* line 40, ../../src/stylesheets/_index.scss */
+/* line 50, ../../src/stylesheets/_index.scss */
 .menu li.contact a {
   color: #D7A01E;
 }
 
-/* line 45, ../../src/stylesheets/_index.scss */
+/* line 55, ../../src/stylesheets/_index.scss */
 .title {
   margin: 100px 0 40px 0;
 }
 
-/* line 49, ../../src/stylesheets/_index.scss */
+/* line 59, ../../src/stylesheets/_index.scss */
 .title-container {
   background: #fff;
-  border-right: 2px solid #00BAFF;
-  border-left: 2px solid #00BAFF;
 }
 
-/* line 55, ../../src/stylesheets/_index.scss */
+/* line 63, ../../src/stylesheets/_index.scss */
+.content {
+  padding: 90px 0;
+}
+
+/* line 67, ../../src/stylesheets/_index.scss */
 .top {
-  background: #FE678A;
+  background: #E86F69;
   padding: 80px 0;
   color: #fff;
 }
 
-/* line 61, ../../src/stylesheets/_index.scss */
+/* line 73, ../../src/stylesheets/_index.scss */
 .middle {
-  background: #53AFDE;
+  background: #E86F69;
   color: #fff;
 }
 
-/* line 66, ../../src/stylesheets/_index.scss */
+/* line 78, ../../src/stylesheets/_index.scss */
 .lower {
   background: #15BBB1;
   color: #fff;
+}
+
+/* line 83, ../../src/stylesheets/_index.scss */
+.bottom-banner {
+  height: 120px;
+  background: #FDD16F;
 }
 
 /* line 1, ../../src/stylesheets/_general.scss */
 html, body {
   width: 100%;
   height: 100%;
+  font-size: 16px;
+  font-family: 'Ubuntu', sans-serif;
 }
 
-/* line 6, ../../src/stylesheets/_general.scss */
+/* line 8, ../../src/stylesheets/_general.scss */
 body {
-  background: url(/images/triangles.png);
+  background: url(/images/triangles.gif);
 }
 
-/* line 10, ../../src/stylesheets/_general.scss */
+/* line 12, ../../src/stylesheets/_general.scss */
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Montserrat', sans-serif;
+  font-family: 'Ubuntu', sans-serif;
   text-transform: uppercase;
+  margin: 0;
 }
 
 /* line 1, ../../src/stylesheets/_bootstrap-override.scss */
@@ -8141,4 +8164,59 @@ h1, h2, h3, h4, h5, h6 {
   border-radius: 0;
   background: rgba(255, 255, 255, 0.85);
   border: none;
+}
+
+/* line 1, ../../src/stylesheets/_buttons.scss */
+.btn-register {
+  border-radius: 0;
+  background: red;
+  font-size: 50px;
+  color: #fff;
+  background: #E5514D;
+  font-family: 'Montserrat', sans-serif;
+}
+
+/* line 10, ../../src/stylesheets/_buttons.scss */
+.btn-register:hover {
+  background: #A93B39;
+  color: #EFEFEF;
+}
+
+/* line 1, ../../src/stylesheets/_profiles.scss */
+.profile {
+  margin: 50px 0 0 0;
+}
+/* line 3, ../../src/stylesheets/_profiles.scss */
+.profile h2 {
+  padding: 20px;
+}
+/* line 6, ../../src/stylesheets/_profiles.scss */
+.profile p {
+  padding: 20px;
+  text-align: center;
+}
+
+/* line 12, ../../src/stylesheets/_profiles.scss */
+.face {
+  width: 140px;
+  height: 140px;
+  border-radius: 9999px;
+  margin: auto;
+  background-position: center;
+  background-size: contain;
+}
+
+/* line 21, ../../src/stylesheets/_profiles.scss */
+.nick {
+  background-image: url(/images/nick-rothwell-cropped.jpg);
+}
+
+/* line 25, ../../src/stylesheets/_profiles.scss */
+.di {
+  background-image: url(/images/di-mainstone-cropped.jpg);
+}
+
+/* line 29, ../../src/stylesheets/_profiles.scss */
+.brigitta {
+  background-image: url(/images/brigitta-zics-cropped.jpg);
 }

@@ -3,16 +3,26 @@
 	width: 100%;
 	height: 600px;
 	background-size: 100% auto;
-	max-height: 400px;
+	max-height: 460px;
 	overflow: hidden;
 	margin-top: -50px;
 }
+
+.logo {
+	background: url(/images/logo.png);
+	height: 232px;
+	width: 300px;
+	margin: auto;
+	background-size: 300px 300px;
+	margin-top: 120px;
+}
+
 
 .header {
 	.inner {
 		margin-bottom: 30px;
 	}
-	background: #00BAFF;
+	background: #47B1CD;
 	color: #fff;
 	text-transform: uppercase;
 	font-family: courier;
@@ -21,7 +31,7 @@
 .menu {
 	font-size: 19px;
 	text-transform: uppercase;
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'Ubuntu', sans-serif;
 	li.home a {
 		color: #FE5D81;
 	}
@@ -48,22 +58,29 @@
 
 .title-container {
 	background: #fff;
-	border-right: 2px solid #00BAFF;
-	border-left: 2px solid #00BAFF;
+}
+
+.content {
+	padding: 90px 0;
 }
 
 .top {
-	background: #FE678A;
+	background: #E86F69;
 	padding: 80px 0;
 	color: #fff;
 }
 
 .middle {
-	background: #53AFDE;
+	background: #E86F69;
 	color: #fff;
 }
 
 .lower {
 	background: #15BBB1;
 	color: #fff;
+}
+
+.bottom-banner {
+	height: 120px;
+	background: #FDD16F;
 }
