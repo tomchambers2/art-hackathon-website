@@ -8047,10 +8047,10 @@ button.close {
 /* line 11, ../../src/stylesheets/_index.scss */
 .logo {
   background: url(/images/logo.png);
-  height: 232px;
-  width: 300px;
+  height: 290px;
+  width: 375px;
   margin: auto;
-  background-size: 300px 300px;
+  background-size: 375px 290px;
   margin-top: 120px;
 }
 
@@ -8063,97 +8063,143 @@ button.close {
 }
 /* line 22, ../../src/stylesheets/_index.scss */
 .header .inner {
-  margin-bottom: 30px;
+  margin: 30px 0;
+}
+/* line 25, ../../src/stylesheets/_index.scss */
+.header h1, .header h2, .header h3 {
+  margin: 10px;
+}
+/* line 32, ../../src/stylesheets/_index.scss */
+.header h3 {
+  text-transform: none;
 }
 
-/* line 31, ../../src/stylesheets/_index.scss */
+/* line 37, ../../src/stylesheets/_index.scss */
 .menu {
   font-size: 19px;
   text-transform: uppercase;
   font-family: 'Ubuntu', sans-serif;
 }
-/* line 35, ../../src/stylesheets/_index.scss */
+/* line 41, ../../src/stylesheets/_index.scss */
 .menu li.home a {
   color: #FE5D81;
 }
-/* line 38, ../../src/stylesheets/_index.scss */
+/* line 44, ../../src/stylesheets/_index.scss */
 .menu li.apply a {
   color: #00629C;
 }
-/* line 41, ../../src/stylesheets/_index.scss */
+/* line 47, ../../src/stylesheets/_index.scss */
 .menu li.venue a {
   color: #00B0A7;
 }
-/* line 44, ../../src/stylesheets/_index.scss */
+/* line 50, ../../src/stylesheets/_index.scss */
 .menu li.twitter a {
   color: #00BAFF;
 }
-/* line 47, ../../src/stylesheets/_index.scss */
+/* line 53, ../../src/stylesheets/_index.scss */
 .menu li.blog a {
   color: #EF474E;
 }
-/* line 50, ../../src/stylesheets/_index.scss */
+/* line 56, ../../src/stylesheets/_index.scss */
 .menu li.contact a {
   color: #D7A01E;
 }
 
-/* line 55, ../../src/stylesheets/_index.scss */
+/* line 61, ../../src/stylesheets/_index.scss */
 .title {
-  margin: 100px 0 40px 0;
+  margin: 60px 0 40px 0;
 }
 
-/* line 59, ../../src/stylesheets/_index.scss */
+/* line 65, ../../src/stylesheets/_index.scss */
 .title-container {
   background: #fff;
 }
 
-/* line 63, ../../src/stylesheets/_index.scss */
-.content {
-  padding: 90px 0;
-}
-
-/* line 67, ../../src/stylesheets/_index.scss */
+/* line 69, ../../src/stylesheets/_index.scss */
 .top {
   background: #E86F69;
   padding: 80px 0;
   color: #fff;
 }
 
-/* line 73, ../../src/stylesheets/_index.scss */
+/* line 75, ../../src/stylesheets/_index.scss */
 .middle {
   background: #E86F69;
   color: #fff;
 }
 
-/* line 78, ../../src/stylesheets/_index.scss */
+/* line 80, ../../src/stylesheets/_index.scss */
 .lower {
   background: #15BBB1;
   color: #fff;
 }
 
-/* line 83, ../../src/stylesheets/_index.scss */
+/* line 85, ../../src/stylesheets/_index.scss */
+.faq {
+  background: #15BBB1;
+  color: #fff;
+}
+
+/* line 90, ../../src/stylesheets/_index.scss */
+.partners {
+  background: #fff;
+  color: #000;
+}
+
+/* line 95, ../../src/stylesheets/_index.scss */
 .bottom-banner {
   height: 120px;
   background: #FDD16F;
+}
+
+/* line 100, ../../src/stylesheets/_index.scss */
+.venue-background {
+  background: url(/images/venue/ravensbourne.jpg);
+  height: 800px;
+  width: 100%;
+}
+
+/* line 106, ../../src/stylesheets/_index.scss */
+.venue-title {
+  color: #fff;
+  padding: 50px;
+  background: rgba(0, 0, 0, 0.4);
+}
+
+/* line 112, ../../src/stylesheets/_index.scss */
+.venue-text {
+  background: rgba(0, 0, 0, 0.7);
+  height: 100%;
+  padding: 40px;
+  color: #fff;
+}
+/* line 117, ../../src/stylesheets/_index.scss */
+.venue-text p {
+  color: #fff;
+}
+
+/* line 122, ../../src/stylesheets/_index.scss */
+.codezoners {
+  padding-top: 75px;
 }
 
 /* line 1, ../../src/stylesheets/_general.scss */
 html, body {
   width: 100%;
   height: 100%;
-  font-size: 16px;
+  font-size: 18px;
+  line-height: 28px;
   font-family: 'Ubuntu', sans-serif;
 }
 
-/* line 8, ../../src/stylesheets/_general.scss */
+/* line 9, ../../src/stylesheets/_general.scss */
 body {
   background: url(/images/triangles.gif);
 }
 
-/* line 12, ../../src/stylesheets/_general.scss */
+/* line 13, ../../src/stylesheets/_general.scss */
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Montserrat', sans-serif;
-  font-family: 'Ubuntu', sans-serif;
   text-transform: uppercase;
   margin: 0;
 }
@@ -8184,19 +8230,20 @@ h1, h2, h3, h4, h5, h6 {
 
 /* line 1, ../../src/stylesheets/_profiles.scss */
 .profile {
-  margin: 50px 0 0 0;
+  margin: 50px 15px 0 15px;
+  padding-bottom: 60px;
 }
-/* line 3, ../../src/stylesheets/_profiles.scss */
+/* line 4, ../../src/stylesheets/_profiles.scss */
 .profile h2 {
-  padding: 20px;
+  padding: 20px 0 5px 0;
 }
-/* line 6, ../../src/stylesheets/_profiles.scss */
+/* line 7, ../../src/stylesheets/_profiles.scss */
 .profile p {
-  padding: 20px;
+  padding: 0 0 20px 0;
   text-align: center;
 }
 
-/* line 12, ../../src/stylesheets/_profiles.scss */
+/* line 13, ../../src/stylesheets/_profiles.scss */
 .face {
   width: 140px;
   height: 140px;
@@ -8206,17 +8253,53 @@ h1, h2, h3, h4, h5, h6 {
   background-size: contain;
 }
 
-/* line 21, ../../src/stylesheets/_profiles.scss */
+/* line 22, ../../src/stylesheets/_profiles.scss */
+.theo {
+  background-image: url(/images/theo-papatheodoros.jpg);
+}
+
+/* line 26, ../../src/stylesheets/_profiles.scss */
+.tom {
+  background-image: url(/images/tom-chambers.png);
+}
+
+/* line 30, ../../src/stylesheets/_profiles.scss */
 .nick {
   background-image: url(/images/nick-rothwell-cropped.jpg);
 }
 
-/* line 25, ../../src/stylesheets/_profiles.scss */
+/* line 34, ../../src/stylesheets/_profiles.scss */
 .di {
   background-image: url(/images/di-mainstone-cropped.jpg);
 }
 
-/* line 29, ../../src/stylesheets/_profiles.scss */
+/* line 38, ../../src/stylesheets/_profiles.scss */
 .brigitta {
   background-image: url(/images/brigitta-zics-cropped.jpg);
+}
+
+/* line 1, ../../src/stylesheets/_lists.scss */
+.schedules {
+  padding-bottom: 60px;
+}
+
+/* line 5, ../../src/stylesheets/_lists.scss */
+.schedule-day {
+  margin-top: 40px;
+}
+/* line 7, ../../src/stylesheets/_lists.scss */
+.schedule-day h3 {
+  margin-top: 8px;
+}
+
+/* line 12, ../../src/stylesheets/_lists.scss */
+.schedule-day.bottom {
+  margin-bottom: 50px;
+}
+
+/* line 16, ../../src/stylesheets/_lists.scss */
+.schedule {
+  list-style: none;
+  font-size: 22px;
+  line-height: 45px;
 }
