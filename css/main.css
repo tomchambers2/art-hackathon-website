@@ -8047,86 +8047,91 @@ button.close {
 /* line 11, ../../src/stylesheets/_index.scss */
 .logo {
   background: url(/images/logo.png);
-  height: 300px;
+  height: 232px;
   width: 300px;
   margin: auto;
   background-size: 300px 300px;
   margin-top: 120px;
 }
 
-/* line 20, ../../src/stylesheets/_index.scss */
+/* line 21, ../../src/stylesheets/_index.scss */
 .header {
   background: #47B1CD;
   color: #fff;
   text-transform: uppercase;
   font-family: courier;
 }
-/* line 21, ../../src/stylesheets/_index.scss */
+/* line 22, ../../src/stylesheets/_index.scss */
 .header .inner {
   margin-bottom: 30px;
 }
 
-/* line 30, ../../src/stylesheets/_index.scss */
+/* line 31, ../../src/stylesheets/_index.scss */
 .menu {
   font-size: 19px;
   text-transform: uppercase;
   font-family: 'Ubuntu', sans-serif;
 }
-/* line 34, ../../src/stylesheets/_index.scss */
+/* line 35, ../../src/stylesheets/_index.scss */
 .menu li.home a {
   color: #FE5D81;
 }
-/* line 37, ../../src/stylesheets/_index.scss */
+/* line 38, ../../src/stylesheets/_index.scss */
 .menu li.apply a {
   color: #00629C;
 }
-/* line 40, ../../src/stylesheets/_index.scss */
+/* line 41, ../../src/stylesheets/_index.scss */
 .menu li.venue a {
   color: #00B0A7;
 }
-/* line 43, ../../src/stylesheets/_index.scss */
+/* line 44, ../../src/stylesheets/_index.scss */
 .menu li.twitter a {
   color: #00BAFF;
 }
-/* line 46, ../../src/stylesheets/_index.scss */
+/* line 47, ../../src/stylesheets/_index.scss */
 .menu li.blog a {
   color: #EF474E;
 }
-/* line 49, ../../src/stylesheets/_index.scss */
+/* line 50, ../../src/stylesheets/_index.scss */
 .menu li.contact a {
   color: #D7A01E;
 }
 
-/* line 54, ../../src/stylesheets/_index.scss */
+/* line 55, ../../src/stylesheets/_index.scss */
 .title {
   margin: 100px 0 40px 0;
 }
 
-/* line 58, ../../src/stylesheets/_index.scss */
+/* line 59, ../../src/stylesheets/_index.scss */
 .title-container {
   background: #fff;
 }
 
-/* line 62, ../../src/stylesheets/_index.scss */
+/* line 63, ../../src/stylesheets/_index.scss */
+.content {
+  padding: 90px 0;
+}
+
+/* line 67, ../../src/stylesheets/_index.scss */
 .top {
   background: #E86F69;
   padding: 80px 0;
   color: #fff;
 }
 
-/* line 68, ../../src/stylesheets/_index.scss */
+/* line 73, ../../src/stylesheets/_index.scss */
 .middle {
   background: #E86F69;
   color: #fff;
 }
 
-/* line 73, ../../src/stylesheets/_index.scss */
+/* line 78, ../../src/stylesheets/_index.scss */
 .lower {
   background: #15BBB1;
   color: #fff;
 }
 
-/* line 78, ../../src/stylesheets/_index.scss */
+/* line 83, ../../src/stylesheets/_index.scss */
 .bottom-banner {
   height: 120px;
   background: #FDD16F;
@@ -8137,15 +8142,17 @@ html, body {
   width: 100%;
   height: 100%;
   font-size: 16px;
+  font-family: 'Ubuntu', sans-serif;
 }
 
-/* line 7, ../../src/stylesheets/_general.scss */
+/* line 8, ../../src/stylesheets/_general.scss */
 body {
   background: url(/images/triangles.gif);
 }
 
-/* line 11, ../../src/stylesheets/_general.scss */
+/* line 12, ../../src/stylesheets/_general.scss */
 h1, h2, h3, h4, h5, h6 {
+  font-family: 'Montserrat', sans-serif;
   font-family: 'Ubuntu', sans-serif;
   text-transform: uppercase;
   margin: 0;
@@ -8179,8 +8186,17 @@ h1, h2, h3, h4, h5, h6 {
 .profile {
   margin: 50px 0 0 0;
 }
+/* line 3, ../../src/stylesheets/_profiles.scss */
+.profile h2 {
+  padding: 20px;
+}
+/* line 6, ../../src/stylesheets/_profiles.scss */
+.profile p {
+  padding: 20px;
+  text-align: center;
+}
 
-/* line 5, ../../src/stylesheets/_profiles.scss */
+/* line 12, ../../src/stylesheets/_profiles.scss */
 .face {
   width: 140px;
   height: 140px;
@@ -8190,17 +8206,17 @@ h1, h2, h3, h4, h5, h6 {
   background-size: contain;
 }
 
-/* line 14, ../../src/stylesheets/_profiles.scss */
+/* line 21, ../../src/stylesheets/_profiles.scss */
 .nick {
   background-image: url(/images/nick-rothwell-cropped.jpg);
 }
 
-/* line 18, ../../src/stylesheets/_profiles.scss */
+/* line 25, ../../src/stylesheets/_profiles.scss */
 .di {
   background-image: url(/images/di-mainstone-cropped.jpg);
 }
 
-/* line 22, ../../src/stylesheets/_profiles.scss */
+/* line 29, ../../src/stylesheets/_profiles.scss */
 .brigitta {
   background-image: url(/images/brigitta-zics-cropped.jpg);
 }
