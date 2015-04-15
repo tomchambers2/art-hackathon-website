@@ -10,22 +10,28 @@
 
 .logo {
 	background: url(/images/logo.png);
-	height: 232px;
-	width: 300px;
+	height: 290px;
+	width: 375px;
 	margin: auto;
-	background-size: 300px 300px;
+	background-size: 375px 290px;
 	margin-top: 120px;
 }
 
 
 .header {
 	.inner {
-		margin-bottom: 30px;
+		margin: 30px 0;
+	}
+	h1, h2, h3 {
+		margin: 10px;
 	}
 	background: #47B1CD;
 	color: #fff;
 	text-transform: uppercase;
 	font-family: courier;
+	h3 {
+		text-transform: none;
+	}
 }
 
 .menu {
@@ -53,15 +59,11 @@
 }
 
 .title {
-	margin: 100px 0 40px 0;
+	margin: 60px 0 40px 0;
 }
 
 .title-container {
 	background: #fff;
-}
-
-.content {
-	padding: 90px 0;
 }
 
 .top {
@@ -80,7 +82,43 @@
 	color: #fff;
 }
 
+.faq {
+	background: #15BBB1;
+	color: #fff;	
+}
+
+.partners {
+	background: #fff;	
+	color: #000;
+}
+
 .bottom-banner {
 	height: 120px;
 	background: #FDD16F;
+}
+
+.venue-background {
+	background: url(/images/venue/ravensbourne.jpg);
+	height: 800px;
+	width: 100%;
+}
+
+.venue-title {
+	color: #fff;
+	padding: 50px;
+	background: rgba(0,0,0,0.4);
+}
+
+.venue-text {
+	background: rgba(0,0,0,0.7);
+	height: 100%;
+	padding: 40px;
+	color: #fff;
+	p {
+		color: #fff;
+	}
+}
+
+.codezoners {
+	padding-top: 75px;
 }

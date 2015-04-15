@@ -1,10 +1,11 @@
 .profile {
-	margin: 50px 0 0 0;
+	margin: 50px 15px 0 15px;
+	padding-bottom: 60px;
 	h2 {
-		padding: 20px;
+		padding: 20px 0 5px 0;
 	}
   	p {
-  		padding: 20px;
+  		padding: 0 0 20px 0;
   		text-align: center;
   	}	
 }
@@ -16,6 +17,14 @@
 	margin: auto;
 	background-position: center;
   	background-size: contain;	
+}
+
+.theo {
+	background-image: url(/images/theo-papatheodoros.jpg);
+}
+
+.tom {
+	background-image: url(/images/tom-chambers.png);
 }
 
 .nick {
