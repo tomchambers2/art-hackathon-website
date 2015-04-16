@@ -8184,11 +8184,23 @@ button.close {
 }
 
 /* line 125, ../../src/stylesheets/_index.scss */
+.venue-thumbnails {
+  height: 176px;
+  background: #fff;
+  overflow: hidden;
+}
+
+/* line 131, ../../src/stylesheets/_index.scss */
+.venue-thumbnail {
+  width: 100%;
+}
+
+/* line 135, ../../src/stylesheets/_index.scss */
 .codezoners {
   padding-top: 75px;
 }
 
-/* line 129, ../../src/stylesheets/_index.scss */
+/* line 139, ../../src/stylesheets/_index.scss */
 .contact-form {
   padding: 60px;
   font-size: 25px;
@@ -8209,18 +8221,22 @@ body {
 }
 
 /* line 13, ../../src/stylesheets/_general.scss */
+h1, h2 {
+  text-transform: uppercase;
+}
+
+/* line 17, ../../src/stylesheets/_general.scss */
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Montserrat', sans-serif;
-  text-transform: uppercase;
   margin: 0;
 }
 
-/* line 20, ../../src/stylesheets/_general.scss */
+/* line 24, ../../src/stylesheets/_general.scss */
 a {
   color: #fff;
 }
 
-/* line 23, ../../src/stylesheets/_general.scss */
+/* line 27, ../../src/stylesheets/_general.scss */
 .contact-form a {
   color: #000;
 }
@@ -8245,7 +8261,7 @@ a {
 
 /* line 10, ../../src/stylesheets/_buttons.scss */
 .btn-register.contrast {
-  margin-top: 180px;
+  margin-top: 80px;
   background: #86E389;
 }
 
