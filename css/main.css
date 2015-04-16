@@ -8185,32 +8185,33 @@ button.close {
 .venue-text {
   background: rgba(0, 0, 0, 0.7);
   height: 100%;
+  font-size: 16px;
   padding: 40px;
   color: #fff;
   overflow: scroll;
 }
-/* line 133, ../../src/stylesheets/_index.scss */
+/* line 134, ../../src/stylesheets/_index.scss */
 .venue-text p {
   color: #fff;
 }
 
-/* line 138, ../../src/stylesheets/_index.scss */
+/* line 139, ../../src/stylesheets/_index.scss */
 .venue-thumbnails {
   height: 142px;
   overflow: hidden;
 }
 
-/* line 143, ../../src/stylesheets/_index.scss */
+/* line 144, ../../src/stylesheets/_index.scss */
 .venue-thumbnail {
   max-width: calc(100% + 30px);
 }
 
-/* line 147, ../../src/stylesheets/_index.scss */
+/* line 148, ../../src/stylesheets/_index.scss */
 .codezoners {
   padding-top: 75px;
 }
 
-/* line 151, ../../src/stylesheets/_index.scss */
+/* line 152, ../../src/stylesheets/_index.scss */
 .contact-form {
   padding: 60px;
   font-size: 25px;
