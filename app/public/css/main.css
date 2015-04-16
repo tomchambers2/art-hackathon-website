@@ -8054,133 +8054,167 @@ button.close {
   margin-top: 120px;
 }
 
-/* line 21, ../../src/stylesheets/_index.scss */
+/* line 24, ../../src/stylesheets/_index.scss */
 .header {
-  background: #47B1CD;
+  background: #DF343B;
   color: #fff;
   text-transform: uppercase;
   font-family: courier;
 }
-/* line 22, ../../src/stylesheets/_index.scss */
+/* line 25, ../../src/stylesheets/_index.scss */
 .header .inner {
   margin: 30px 0;
 }
-/* line 25, ../../src/stylesheets/_index.scss */
+/* line 28, ../../src/stylesheets/_index.scss */
 .header h1, .header h2, .header h3 {
   margin: 10px;
 }
-/* line 32, ../../src/stylesheets/_index.scss */
+/* line 35, ../../src/stylesheets/_index.scss */
 .header h3 {
   text-transform: none;
 }
 
-/* line 37, ../../src/stylesheets/_index.scss */
+/* line 40, ../../src/stylesheets/_index.scss */
 .menu {
   font-size: 19px;
   text-transform: uppercase;
   font-family: 'Ubuntu', sans-serif;
 }
-/* line 41, ../../src/stylesheets/_index.scss */
+/* line 44, ../../src/stylesheets/_index.scss */
 .menu li.home a {
   color: #FE5D81;
 }
-/* line 44, ../../src/stylesheets/_index.scss */
+/* line 47, ../../src/stylesheets/_index.scss */
 .menu li.apply a {
   color: #00629C;
 }
-/* line 47, ../../src/stylesheets/_index.scss */
+/* line 50, ../../src/stylesheets/_index.scss */
 .menu li.venue a {
   color: #00B0A7;
 }
-/* line 50, ../../src/stylesheets/_index.scss */
+/* line 53, ../../src/stylesheets/_index.scss */
 .menu li.twitter a {
   color: #00BAFF;
 }
-/* line 53, ../../src/stylesheets/_index.scss */
+/* line 56, ../../src/stylesheets/_index.scss */
 .menu li.blog a {
   color: #EF474E;
 }
-/* line 56, ../../src/stylesheets/_index.scss */
+/* line 59, ../../src/stylesheets/_index.scss */
 .menu li.contact a {
   color: #D7A01E;
 }
 
-/* line 61, ../../src/stylesheets/_index.scss */
+/* line 64, ../../src/stylesheets/_index.scss */
+.about {
+  padding-top: 60px;
+}
+
+/* line 68, ../../src/stylesheets/_index.scss */
 .title {
   margin: 60px 0 40px 0;
 }
 
-/* line 65, ../../src/stylesheets/_index.scss */
+/* line 72, ../../src/stylesheets/_index.scss */
 .title-container {
   background: #fff;
 }
 
-/* line 69, ../../src/stylesheets/_index.scss */
-.top {
-  background: #E86F69;
-  padding: 80px 0;
-  color: #fff;
-}
-
-/* line 75, ../../src/stylesheets/_index.scss */
-.middle {
-  background: #E86F69;
-  color: #fff;
+/* line 76, ../../src/stylesheets/_index.scss */
+.top, .middle, .lower {
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 /* line 80, ../../src/stylesheets/_index.scss */
+.top {
+  background: #74A5C9;
+  color: #fff;
+}
+
+/* line 86, ../../src/stylesheets/_index.scss */
+.middle {
+  background: #D0D0D0;
+  color: #fff;
+}
+
+/* line 92, ../../src/stylesheets/_index.scss */
 .lower {
-  background: #15BBB1;
+  background: #A3A3A3;
   color: #fff;
 }
 
-/* line 85, ../../src/stylesheets/_index.scss */
+/* line 97, ../../src/stylesheets/_index.scss */
 .faq {
-  background: #15BBB1;
-  color: #fff;
+  /*	background: #15BBB1;
+  	color: #fff;*/
 }
 
-/* line 90, ../../src/stylesheets/_index.scss */
+/* line 101, ../../src/stylesheets/_index.scss */
+.faq p:nth-of-type(odd) {
+  margin-top: 50px;
+}
+
+/* line 105, ../../src/stylesheets/_index.scss */
 .partners {
   background: #fff;
   color: #000;
 }
 
-/* line 95, ../../src/stylesheets/_index.scss */
+/* line 110, ../../src/stylesheets/_index.scss */
 .bottom-banner {
   height: 120px;
   background: #FDD16F;
 }
 
-/* line 100, ../../src/stylesheets/_index.scss */
+/* line 115, ../../src/stylesheets/_index.scss */
 .venue-background {
   background: url(/images/venue/ravensbourne.jpg);
   height: 800px;
   width: 100%;
 }
 
-/* line 106, ../../src/stylesheets/_index.scss */
+/* line 121, ../../src/stylesheets/_index.scss */
 .venue-title {
   color: #fff;
   padding: 50px;
   background: rgba(0, 0, 0, 0.4);
 }
 
-/* line 112, ../../src/stylesheets/_index.scss */
+/* line 127, ../../src/stylesheets/_index.scss */
 .venue-text {
   background: rgba(0, 0, 0, 0.7);
   height: 100%;
+  font-size: 16px;
   padding: 40px;
   color: #fff;
+  overflow: scroll;
 }
-/* line 117, ../../src/stylesheets/_index.scss */
+/* line 134, ../../src/stylesheets/_index.scss */
 .venue-text p {
   color: #fff;
 }
 
-/* line 122, ../../src/stylesheets/_index.scss */
+/* line 139, ../../src/stylesheets/_index.scss */
+.venue-thumbnails {
+  height: 142px;
+  overflow: hidden;
+}
+
+/* line 144, ../../src/stylesheets/_index.scss */
+.venue-thumbnail {
+  max-width: calc(100% + 30px);
+}
+
+/* line 148, ../../src/stylesheets/_index.scss */
 .codezoners {
   padding-top: 75px;
+}
+
+/* line 152, ../../src/stylesheets/_index.scss */
+.contact-form {
+  padding: 60px;
+  font-size: 25px;
 }
 
 /* line 1, ../../src/stylesheets/_general.scss */
@@ -8198,10 +8232,24 @@ body {
 }
 
 /* line 13, ../../src/stylesheets/_general.scss */
+h1, h2 {
+  text-transform: uppercase;
+}
+
+/* line 17, ../../src/stylesheets/_general.scss */
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Montserrat', sans-serif;
-  text-transform: uppercase;
   margin: 0;
+}
+
+/* line 24, ../../src/stylesheets/_general.scss */
+a {
+  color: #fff;
+}
+
+/* line 27, ../../src/stylesheets/_general.scss */
+.contact-form a {
+  color: #000;
 }
 
 /* line 1, ../../src/stylesheets/_bootstrap-override.scss */
@@ -8218,11 +8266,17 @@ h1, h2, h3, h4, h5, h6 {
   background: red;
   font-size: 50px;
   color: #fff;
-  background: #E5514D;
+  background: #DF343B;
   font-family: 'Montserrat', sans-serif;
 }
 
 /* line 10, ../../src/stylesheets/_buttons.scss */
+.btn-register.contrast {
+  margin-top: 80px;
+  background: #DF343B;
+}
+
+/* line 15, ../../src/stylesheets/_buttons.scss */
 .btn-register:hover {
   background: #A93B39;
   color: #EFEFEF;
@@ -8245,35 +8299,36 @@ h1, h2, h3, h4, h5, h6 {
 
 /* line 13, ../../src/stylesheets/_profiles.scss */
 .face {
-  width: 140px;
-  height: 140px;
+  width: 180px;
+  height: 180px;
   border-radius: 9999px;
   margin: auto;
   background-position: center;
   background-size: contain;
+  margin-bottom: 35px;
 }
 
-/* line 22, ../../src/stylesheets/_profiles.scss */
+/* line 23, ../../src/stylesheets/_profiles.scss */
 .theo {
   background-image: url(/images/theo-papatheodoros.jpg);
 }
 
-/* line 26, ../../src/stylesheets/_profiles.scss */
+/* line 27, ../../src/stylesheets/_profiles.scss */
 .tom {
   background-image: url(/images/tom-chambers.png);
 }
 
-/* line 30, ../../src/stylesheets/_profiles.scss */
+/* line 31, ../../src/stylesheets/_profiles.scss */
 .nick {
   background-image: url(/images/nick-rothwell-cropped.jpg);
 }
 
-/* line 34, ../../src/stylesheets/_profiles.scss */
+/* line 35, ../../src/stylesheets/_profiles.scss */
 .di {
   background-image: url(/images/di-mainstone-cropped.jpg);
 }
 
-/* line 38, ../../src/stylesheets/_profiles.scss */
+/* line 39, ../../src/stylesheets/_profiles.scss */
 .brigitta {
   background-image: url(/images/brigitta-zics-cropped.jpg);
 }
@@ -8302,4 +8357,9 @@ h1, h2, h3, h4, h5, h6 {
   list-style: none;
   font-size: 22px;
   line-height: 45px;
+}
+
+/* line 22, ../../src/stylesheets/_lists.scss */
+.navbar-default .navbar-nav > li > a {
+  color: #DF343B;
 }

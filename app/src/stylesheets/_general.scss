@@ -10,9 +10,20 @@ body {
 	background: url(/images/triangles.gif);
 }
 
-h1,h2,h3,h4,h5,h6 {
+h1,h2 {
+	text-transform: uppercase;
+}
+
+h1, h2,h3,h4,h5,h6 {
 	font-family: 'Montserrat', sans-serif;
 	//font-family: 'Ubuntu', sans-serif;
-	text-transform: uppercase;
+	//text-transform: uppercase;
 	margin: 0;
+}
+
+a {
+	color: #fff;
+}
+.contact-form a {
+	color: #000;
 }
