@@ -8054,153 +8054,158 @@ button.close {
   margin-top: 120px;
 }
 
-/* line 21, ../../src/stylesheets/_index.scss */
+/* line 24, ../../src/stylesheets/_index.scss */
 .header {
-  background: #DF222B;
+  background: #DF4C52;
   color: #fff;
   text-transform: uppercase;
   font-family: courier;
 }
-/* line 22, ../../src/stylesheets/_index.scss */
+/* line 25, ../../src/stylesheets/_index.scss */
 .header .inner {
   margin: 30px 0;
 }
-/* line 25, ../../src/stylesheets/_index.scss */
+/* line 28, ../../src/stylesheets/_index.scss */
 .header h1, .header h2, .header h3 {
   margin: 10px;
 }
-/* line 32, ../../src/stylesheets/_index.scss */
+/* line 35, ../../src/stylesheets/_index.scss */
 .header h3 {
   text-transform: none;
 }
 
-/* line 37, ../../src/stylesheets/_index.scss */
+/* line 40, ../../src/stylesheets/_index.scss */
 .menu {
   font-size: 19px;
   text-transform: uppercase;
   font-family: 'Ubuntu', sans-serif;
 }
-/* line 41, ../../src/stylesheets/_index.scss */
+/* line 44, ../../src/stylesheets/_index.scss */
 .menu li.home a {
   color: #FE5D81;
 }
-/* line 44, ../../src/stylesheets/_index.scss */
+/* line 47, ../../src/stylesheets/_index.scss */
 .menu li.apply a {
   color: #00629C;
 }
-/* line 47, ../../src/stylesheets/_index.scss */
+/* line 50, ../../src/stylesheets/_index.scss */
 .menu li.venue a {
   color: #00B0A7;
 }
-/* line 50, ../../src/stylesheets/_index.scss */
+/* line 53, ../../src/stylesheets/_index.scss */
 .menu li.twitter a {
   color: #00BAFF;
 }
-/* line 53, ../../src/stylesheets/_index.scss */
+/* line 56, ../../src/stylesheets/_index.scss */
 .menu li.blog a {
   color: #EF474E;
 }
-/* line 56, ../../src/stylesheets/_index.scss */
+/* line 59, ../../src/stylesheets/_index.scss */
 .menu li.contact a {
   color: #D7A01E;
 }
 
-/* line 61, ../../src/stylesheets/_index.scss */
+/* line 64, ../../src/stylesheets/_index.scss */
 .title {
   margin: 60px 0 40px 0;
 }
 
-/* line 65, ../../src/stylesheets/_index.scss */
+/* line 68, ../../src/stylesheets/_index.scss */
 .title-container {
   background: #fff;
 }
 
-/* line 69, ../../src/stylesheets/_index.scss */
+/* line 72, ../../src/stylesheets/_index.scss */
+.top, .middle, .lower {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+/* line 76, ../../src/stylesheets/_index.scss */
 .top {
-  background: #6B7169;
-  padding: 80px 0;
+  background: #74A5C9;
   color: #fff;
 }
 
-/* line 75, ../../src/stylesheets/_index.scss */
+/* line 82, ../../src/stylesheets/_index.scss */
 .middle {
   background: #B7C9B0;
   color: #fff;
 }
 
-/* line 80, ../../src/stylesheets/_index.scss */
+/* line 88, ../../src/stylesheets/_index.scss */
 .lower {
   background: #B7C9B0;
   color: #fff;
 }
 
-/* line 85, ../../src/stylesheets/_index.scss */
+/* line 93, ../../src/stylesheets/_index.scss */
 .faq {
   /*	background: #15BBB1;
   	color: #fff;*/
 }
 
-/* line 89, ../../src/stylesheets/_index.scss */
+/* line 97, ../../src/stylesheets/_index.scss */
 .faq p:nth-of-type(odd) {
   margin-top: 50px;
 }
 
-/* line 93, ../../src/stylesheets/_index.scss */
+/* line 101, ../../src/stylesheets/_index.scss */
 .partners {
   background: #fff;
   color: #000;
 }
 
-/* line 98, ../../src/stylesheets/_index.scss */
+/* line 106, ../../src/stylesheets/_index.scss */
 .bottom-banner {
   height: 120px;
   background: #FDD16F;
 }
 
-/* line 103, ../../src/stylesheets/_index.scss */
+/* line 111, ../../src/stylesheets/_index.scss */
 .venue-background {
   background: url(/images/venue/ravensbourne.jpg);
   height: 800px;
   width: 100%;
 }
 
-/* line 109, ../../src/stylesheets/_index.scss */
+/* line 117, ../../src/stylesheets/_index.scss */
 .venue-title {
   color: #fff;
   padding: 50px;
   background: rgba(0, 0, 0, 0.4);
 }
 
-/* line 115, ../../src/stylesheets/_index.scss */
+/* line 123, ../../src/stylesheets/_index.scss */
 .venue-text {
   background: rgba(0, 0, 0, 0.7);
   height: 100%;
   padding: 40px;
   color: #fff;
 }
-/* line 120, ../../src/stylesheets/_index.scss */
+/* line 128, ../../src/stylesheets/_index.scss */
 .venue-text p {
   color: #fff;
 }
 
-/* line 125, ../../src/stylesheets/_index.scss */
+/* line 133, ../../src/stylesheets/_index.scss */
 .venue-thumbnails {
   height: 176px;
   background: #fff;
   overflow: hidden;
 }
 
-/* line 131, ../../src/stylesheets/_index.scss */
+/* line 139, ../../src/stylesheets/_index.scss */
 .venue-thumbnail {
   width: 100%;
 }
 
-/* line 135, ../../src/stylesheets/_index.scss */
+/* line 143, ../../src/stylesheets/_index.scss */
 .codezoners {
   padding-top: 75px;
 }
 
-/* line 139, ../../src/stylesheets/_index.scss */
+/* line 147, ../../src/stylesheets/_index.scss */
 .contact-form {
   padding: 60px;
   font-size: 25px;
