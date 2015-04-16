@@ -8136,51 +8136,62 @@ button.close {
 
 /* line 85, ../../src/stylesheets/_index.scss */
 .faq {
-  background: #15BBB1;
-  color: #fff;
+  /*	background: #15BBB1;
+  	color: #fff;*/
 }
 
-/* line 90, ../../src/stylesheets/_index.scss */
+/* line 89, ../../src/stylesheets/_index.scss */
+.faq p:nth-of-type(odd) {
+  margin-top: 50px;
+}
+
+/* line 93, ../../src/stylesheets/_index.scss */
 .partners {
   background: #fff;
   color: #000;
 }
 
-/* line 95, ../../src/stylesheets/_index.scss */
+/* line 98, ../../src/stylesheets/_index.scss */
 .bottom-banner {
   height: 120px;
   background: #FDD16F;
 }
 
-/* line 100, ../../src/stylesheets/_index.scss */
+/* line 103, ../../src/stylesheets/_index.scss */
 .venue-background {
   background: url(/images/venue/ravensbourne.jpg);
   height: 800px;
   width: 100%;
 }
 
-/* line 106, ../../src/stylesheets/_index.scss */
+/* line 109, ../../src/stylesheets/_index.scss */
 .venue-title {
   color: #fff;
   padding: 50px;
   background: rgba(0, 0, 0, 0.4);
 }
 
-/* line 112, ../../src/stylesheets/_index.scss */
+/* line 115, ../../src/stylesheets/_index.scss */
 .venue-text {
   background: rgba(0, 0, 0, 0.7);
   height: 100%;
   padding: 40px;
   color: #fff;
 }
-/* line 117, ../../src/stylesheets/_index.scss */
+/* line 120, ../../src/stylesheets/_index.scss */
 .venue-text p {
   color: #fff;
 }
 
-/* line 122, ../../src/stylesheets/_index.scss */
+/* line 125, ../../src/stylesheets/_index.scss */
 .codezoners {
   padding-top: 75px;
+}
+
+/* line 129, ../../src/stylesheets/_index.scss */
+.contact-form {
+  padding: 60px;
+  font-size: 25px;
 }
 
 /* line 1, ../../src/stylesheets/_general.scss */
@@ -8204,6 +8215,16 @@ h1, h2, h3, h4, h5, h6 {
   margin: 0;
 }
 
+/* line 20, ../../src/stylesheets/_general.scss */
+a {
+  color: #fff;
+}
+
+/* line 23, ../../src/stylesheets/_general.scss */
+.contact-form a {
+  color: #000;
+}
+
 /* line 1, ../../src/stylesheets/_bootstrap-override.scss */
 .navbar.navbar-default {
   margin-bottom: 0;
@@ -8223,6 +8244,12 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /* line 10, ../../src/stylesheets/_buttons.scss */
+.btn-register.contrast {
+  margin-top: 180px;
+  background: #86E389;
+}
+
+/* line 15, ../../src/stylesheets/_buttons.scss */
 .btn-register:hover {
   background: #A93B39;
   color: #EFEFEF;
@@ -8245,35 +8272,36 @@ h1, h2, h3, h4, h5, h6 {
 
 /* line 13, ../../src/stylesheets/_profiles.scss */
 .face {
-  width: 140px;
-  height: 140px;
+  width: 180px;
+  height: 180px;
   border-radius: 9999px;
   margin: auto;
   background-position: center;
   background-size: contain;
+  margin-bottom: 35px;
 }
 
-/* line 22, ../../src/stylesheets/_profiles.scss */
+/* line 23, ../../src/stylesheets/_profiles.scss */
 .theo {
   background-image: url(/images/theo-papatheodoros.jpg);
 }
 
-/* line 26, ../../src/stylesheets/_profiles.scss */
+/* line 27, ../../src/stylesheets/_profiles.scss */
 .tom {
   background-image: url(/images/tom-chambers.png);
 }
 
-/* line 30, ../../src/stylesheets/_profiles.scss */
+/* line 31, ../../src/stylesheets/_profiles.scss */
 .nick {
   background-image: url(/images/nick-rothwell-cropped.jpg);
 }
 
-/* line 34, ../../src/stylesheets/_profiles.scss */
+/* line 35, ../../src/stylesheets/_profiles.scss */
 .di {
   background-image: url(/images/di-mainstone-cropped.jpg);
 }
 
-/* line 38, ../../src/stylesheets/_profiles.scss */
+/* line 39, ../../src/stylesheets/_profiles.scss */
 .brigitta {
   background-image: url(/images/brigitta-zics-cropped.jpg);
 }

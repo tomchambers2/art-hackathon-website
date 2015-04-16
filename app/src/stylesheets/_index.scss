@@ -83,8 +83,11 @@
 }
 
 .faq {
-	background: #15BBB1;
-	color: #fff;	
+/*	background: #15BBB1;
+	color: #fff;*/	
+}
+.faq p:nth-of-type(odd) {
+	margin-top: 50px;
 }
 
 .partners {
@@ -121,4 +124,9 @@
 
 .codezoners {
 	padding-top: 75px;
+}
+
+.contact-form {
+	padding: 60px;
+	font-size: 25px;
 }
