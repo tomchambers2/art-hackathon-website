@@ -17,6 +17,9 @@
 	margin-top: 120px;
 }
 
+.row {
+	//margin-top: 50px;
+}
 
 .header {
 	.inner {
@@ -25,7 +28,7 @@
 	h1, h2, h3 {
 		margin: 10px;
 	}
-	background: #47B1CD;
+	background: #DF4C52;
 	color: #fff;
 	text-transform: uppercase;
 	font-family: courier;
@@ -66,19 +69,24 @@
 	background: #fff;
 }
 
+.top, .middle, .lower {
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
 .top {
-	background: #E86F69;
-	padding: 80px 0;
+	background: #74A5C9;
+
 	color: #fff;
 }
 
 .middle {
-	background: #E86F69;
+	background: #B7C9B0;
+	
 	color: #fff;
 }
 
 .lower {
-	background: #15BBB1;
+	background: #B7C9B0;
 	color: #fff;
 }
 
