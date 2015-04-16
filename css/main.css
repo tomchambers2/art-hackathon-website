@@ -8182,22 +8182,22 @@ button.close {
   height: 100%;
   padding: 40px;
   color: #fff;
+  overflow: scroll;
 }
-/* line 128, ../../src/stylesheets/_index.scss */
+/* line 129, ../../src/stylesheets/_index.scss */
 .venue-text p {
   color: #fff;
 }
 
-/* line 133, ../../src/stylesheets/_index.scss */
+/* line 134, ../../src/stylesheets/_index.scss */
 .venue-thumbnails {
-  height: 176px;
-  background: #fff;
+  height: 142px;
   overflow: hidden;
 }
 
 /* line 139, ../../src/stylesheets/_index.scss */
 .venue-thumbnail {
-  width: 100%;
+  max-width: calc(100% + 30px);
 }
 
 /* line 143, ../../src/stylesheets/_index.scss */
