@@ -8200,6 +8200,7 @@ button.close {
   overflow: hidden;
 }
 
+<<<<<<< HEAD
 @media (max-width: 760px) {
   /* line 144, ../../src/stylesheets/_index.scss */
   .venue-thumbnails {
@@ -8212,17 +8213,15 @@ button.close {
     width: 100%;
   }
 }
-/* line 153, ../../src/stylesheets/_index.scss */
+
 .venue-thumbnail {
   max-width: calc(100% + 30px);
 }
 
-/* line 157, ../../src/stylesheets/_index.scss */
 .codezoners {
   padding-top: 75px;
 }
 
-/* line 161, ../../src/stylesheets/_index.scss */
 .contact-form {
   padding: 60px;
   font-size: 25px;
