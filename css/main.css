@@ -8200,17 +8200,28 @@ button.close {
   overflow: hidden;
 }
 
-/* line 143, ../../src/stylesheets/_index.scss */
+<<<<<<< HEAD
+@media (max-width: 760px) {
+  /* line 144, ../../src/stylesheets/_index.scss */
+  .venue-thumbnails {
+    height: auto;
+    overflow: hidden;
+  }
+
+  /* line 148, ../../src/stylesheets/_index.scss */
+  .venue-thumbnail {
+    width: 100%;
+  }
+}
+
 .venue-thumbnail {
   max-width: calc(100% + 30px);
 }
 
-/* line 147, ../../src/stylesheets/_index.scss */
 .codezoners {
   padding-top: 75px;
 }
 
-/* line 151, ../../src/stylesheets/_index.scss */
 .contact-form {
   padding: 60px;
   font-size: 25px;
