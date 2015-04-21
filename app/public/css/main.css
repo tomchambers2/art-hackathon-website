@@ -8228,6 +8228,11 @@ button.close {
   font-size: 25px;
 }
 
+/* line 166, ../../src/stylesheets/_index.scss */
+.about-share {
+  margin-top: 150px;
+}
+
 /* line 1, ../../src/stylesheets/_general.scss */
 html, body {
   width: 100%;
