@@ -8326,41 +8326,46 @@ a {
 }
 
 /* line 23, ../../src/stylesheets/_profiles.scss */
+.joel {
+  background-image: url(/images/joel-gethin-lewis.png);
+}
+
+/* line 27, ../../src/stylesheets/_profiles.scss */
 .theo {
   background-image: url(/images/theo-papatheodoros.jpg);
 }
 
-/* line 27, ../../src/stylesheets/_profiles.scss */
+/* line 31, ../../src/stylesheets/_profiles.scss */
 .tom {
   background-image: url(/images/tom-chambers.png);
 }
 
-/* line 31, ../../src/stylesheets/_profiles.scss */
+/* line 35, ../../src/stylesheets/_profiles.scss */
 .nick {
   background-image: url(/images/nick-rothwell-cropped.jpg);
 }
 
-/* line 35, ../../src/stylesheets/_profiles.scss */
+/* line 39, ../../src/stylesheets/_profiles.scss */
 .nimrod {
   background-image: url(/images/nimrod-vardi-cropped.jpg);
 }
 
-/* line 39, ../../src/stylesheets/_profiles.scss */
+/* line 43, ../../src/stylesheets/_profiles.scss */
 .xavi {
   background-image: url(/images/xavi-sole-cropped.jpg);
 }
 
-/* line 43, ../../src/stylesheets/_profiles.scss */
+/* line 47, ../../src/stylesheets/_profiles.scss */
 .russell {
   background-image: url(/images/russell-miller-cropped.jpg);
 }
 
-/* line 47, ../../src/stylesheets/_profiles.scss */
+/* line 51, ../../src/stylesheets/_profiles.scss */
 .di {
   background-image: url(/images/di-mainstone-cropped.jpg);
 }
 
-/* line 51, ../../src/stylesheets/_profiles.scss */
+/* line 55, ../../src/stylesheets/_profiles.scss */
 .brigitta {
   background-image: url(/images/brigitta-zics-cropped.jpg);
 }
