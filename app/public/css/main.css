@@ -8370,6 +8370,11 @@ a {
   background-image: url(/images/brigitta-zics-cropped.jpg);
 }
 
+/* line 59, ../../src/stylesheets/_profiles.scss */
+.marco {
+  background-image: url(/images/marco-de-mutiis.jpg);
+}
+
 /* line 1, ../../src/stylesheets/_lists.scss */
 .schedules {
   padding-bottom: 60px;
