@@ -12,6 +12,21 @@
 	background: #DF343B;
 }
 
+.btn-register:after {
+  content: 'Sold out!';
+  display: block;
+  background: blue;
+  color: #fff;
+  width: 300px;
+  height: 100px;
+  position: absolute;
+  bottom: 125px;
+  left: 47px;
+  line-height: 90px;
+  transform: rotate(-25deg);
+
+}
+
 .btn-register:hover {
 	background: #A93B39;
 	color: #EFEFEF;
