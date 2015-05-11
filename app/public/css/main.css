@@ -8045,6 +8045,11 @@ button.close {
 }
 
 /* line 11, ../../src/stylesheets/_index.scss */
+a {
+  text-decoration: underline;
+}
+
+/* line 15, ../../src/stylesheets/_index.scss */
 .logo {
   background: url(/images/logo.png);
   height: 290px;
@@ -8054,134 +8059,134 @@ button.close {
   margin-top: 120px;
 }
 
-/* line 24, ../../src/stylesheets/_index.scss */
+/* line 28, ../../src/stylesheets/_index.scss */
 .header {
   background: #DF343B;
   color: #fff;
   text-transform: uppercase;
   font-family: courier;
 }
-/* line 25, ../../src/stylesheets/_index.scss */
+/* line 29, ../../src/stylesheets/_index.scss */
 .header .inner {
   margin: 30px 0;
 }
-/* line 28, ../../src/stylesheets/_index.scss */
+/* line 32, ../../src/stylesheets/_index.scss */
 .header h1, .header h2, .header h3 {
   margin: 10px;
 }
-/* line 35, ../../src/stylesheets/_index.scss */
+/* line 39, ../../src/stylesheets/_index.scss */
 .header h3 {
   text-transform: none;
 }
 
-/* line 40, ../../src/stylesheets/_index.scss */
+/* line 44, ../../src/stylesheets/_index.scss */
 .menu {
   font-size: 19px;
   text-transform: uppercase;
   font-family: 'Ubuntu', sans-serif;
 }
-/* line 44, ../../src/stylesheets/_index.scss */
+/* line 48, ../../src/stylesheets/_index.scss */
 .menu li.home a {
   color: #FE5D81;
 }
-/* line 47, ../../src/stylesheets/_index.scss */
+/* line 51, ../../src/stylesheets/_index.scss */
 .menu li.apply a {
   color: #00629C;
 }
-/* line 50, ../../src/stylesheets/_index.scss */
+/* line 54, ../../src/stylesheets/_index.scss */
 .menu li.venue a {
   color: #00B0A7;
 }
-/* line 53, ../../src/stylesheets/_index.scss */
+/* line 57, ../../src/stylesheets/_index.scss */
 .menu li.twitter a {
   color: #00BAFF;
 }
-/* line 56, ../../src/stylesheets/_index.scss */
+/* line 60, ../../src/stylesheets/_index.scss */
 .menu li.blog a {
   color: #EF474E;
 }
-/* line 59, ../../src/stylesheets/_index.scss */
+/* line 63, ../../src/stylesheets/_index.scss */
 .menu li.contact a {
   color: #D7A01E;
 }
 
-/* line 64, ../../src/stylesheets/_index.scss */
+/* line 68, ../../src/stylesheets/_index.scss */
 .about {
   padding-top: 60px;
 }
 
-/* line 68, ../../src/stylesheets/_index.scss */
+/* line 72, ../../src/stylesheets/_index.scss */
 .title {
   margin: 60px 0 40px 0;
 }
 
-/* line 72, ../../src/stylesheets/_index.scss */
+/* line 76, ../../src/stylesheets/_index.scss */
 .title-container {
   background: #fff;
 }
 
-/* line 76, ../../src/stylesheets/_index.scss */
+/* line 80, ../../src/stylesheets/_index.scss */
 .top, .middle, .lower {
   padding-top: 20px;
   padding-bottom: 20px;
 }
 
-/* line 80, ../../src/stylesheets/_index.scss */
+/* line 84, ../../src/stylesheets/_index.scss */
 .top {
   background: #74A5C9;
   color: #fff;
 }
 
-/* line 86, ../../src/stylesheets/_index.scss */
+/* line 90, ../../src/stylesheets/_index.scss */
 .middle {
   background: #D0D0D0;
   color: #fff;
 }
 
-/* line 92, ../../src/stylesheets/_index.scss */
+/* line 96, ../../src/stylesheets/_index.scss */
 .lower {
   background: #A3A3A3;
   color: #fff;
 }
 
-/* line 97, ../../src/stylesheets/_index.scss */
+/* line 101, ../../src/stylesheets/_index.scss */
 .faq {
   /*	background: #15BBB1;
   	color: #fff;*/
 }
 
-/* line 101, ../../src/stylesheets/_index.scss */
+/* line 105, ../../src/stylesheets/_index.scss */
 .faq p:nth-of-type(odd) {
   margin-top: 50px;
 }
 
-/* line 105, ../../src/stylesheets/_index.scss */
+/* line 109, ../../src/stylesheets/_index.scss */
 .partners {
   background: #fff;
   color: #000;
 }
 
-/* line 110, ../../src/stylesheets/_index.scss */
+/* line 114, ../../src/stylesheets/_index.scss */
 .bottom-banner {
   height: 120px;
   background: #FDD16F;
 }
 
-/* line 115, ../../src/stylesheets/_index.scss */
+/* line 119, ../../src/stylesheets/_index.scss */
 .venue-background {
   background: url(/images/venue/ravensbourne.jpg);
   height: 800px;
   width: 100%;
 }
 
-/* line 121, ../../src/stylesheets/_index.scss */
+/* line 125, ../../src/stylesheets/_index.scss */
 .venue-title {
   color: #fff;
   padding: 50px;
   background: rgba(0, 0, 0, 0.4);
 }
 
-/* line 127, ../../src/stylesheets/_index.scss */
+/* line 131, ../../src/stylesheets/_index.scss */
 .venue-text {
   background: rgba(0, 0, 0, 0.7);
   height: 100%;
@@ -8189,46 +8194,46 @@ button.close {
   padding: 40px;
   color: #fff;
 }
-/* line 133, ../../src/stylesheets/_index.scss */
+/* line 137, ../../src/stylesheets/_index.scss */
 .venue-text p {
   color: #fff;
 }
 
-/* line 138, ../../src/stylesheets/_index.scss */
+/* line 142, ../../src/stylesheets/_index.scss */
 .venue-thumbnails {
   height: 142px;
   overflow: hidden;
 }
 
 @media (max-width: 760px) {
-  /* line 144, ../../src/stylesheets/_index.scss */
+  /* line 148, ../../src/stylesheets/_index.scss */
   .venue-thumbnails {
     height: auto;
     overflow: hidden;
   }
 
-  /* line 148, ../../src/stylesheets/_index.scss */
+  /* line 152, ../../src/stylesheets/_index.scss */
   .venue-thumbnail {
     width: 100%;
   }
 }
-/* line 153, ../../src/stylesheets/_index.scss */
+/* line 157, ../../src/stylesheets/_index.scss */
 .venue-thumbnail {
   max-width: calc(100% + 30px);
 }
 
-/* line 157, ../../src/stylesheets/_index.scss */
+/* line 161, ../../src/stylesheets/_index.scss */
 .codezoners {
   padding-top: 75px;
 }
 
-/* line 161, ../../src/stylesheets/_index.scss */
+/* line 165, ../../src/stylesheets/_index.scss */
 .contact-form {
   padding: 60px;
   font-size: 25px;
 }
 
-/* line 166, ../../src/stylesheets/_index.scss */
+/* line 170, ../../src/stylesheets/_index.scss */
 .about-share {
   margin-top: 150px;
 }
