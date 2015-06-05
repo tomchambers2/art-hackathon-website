@@ -8289,7 +8289,7 @@ a {
   background: #DF343B;
 }
 
-/* line 15, ../../src/stylesheets/_buttons.scss */
+/*
 .btn-register:after {
   content: 'Sold out!';
   display: block;
@@ -8302,9 +8302,10 @@ a {
   left: 47px;
   line-height: 90px;
   transform: rotate(-25deg);
-}
 
-/* line 30, ../../src/stylesheets/_buttons.scss */
+}
+*/
+/* line 32, ../../src/stylesheets/_buttons.scss */
 .btn-register:hover {
   background: #A93B39;
   color: #EFEFEF;
